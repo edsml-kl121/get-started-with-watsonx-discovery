@@ -9,7 +9,7 @@ Please choose your specification (ie. CPU, RAM needed) and provision the reosour
 Locate to resource list tab and wait for your instance to be fully provisioned
 ![Alt text](Images/locate_to_resource.png)
 
-### STEP 2: finding your endpoint
+### STEP 3: finding your endpoint
 
 1. Here you should copy the endpoint and keep it. You should also replace
 \$USERNAME and \$PASSWORD using the credentials in step 5-6.
@@ -19,19 +19,19 @@ Locate to resource list tab and wait for your instance to be fully provisioned
 
 ![Alt text](Images/get_started.png)
 
-### STEP 3: service credentials to get username and password
+### STEP 4: service credentials to get username and password
 
 Locate to the service credential tab. Here you can use predefined key or create a new one.
 
 ![Alt text](Images/where_to_get_your_credentials.png)
 
-### STEP 4: replacing username and password
+### STEP 5: replacing username and password
 
 Lastly within that key find the user name and password and replace it in the endpoint in step 4
 
 ![Alt text](Images/Find_your_credential.png)
 
-### STEP 5: populating .env
+### STEP 6: populating .env
 
 Example below: change based on your new environment (.pem saved in same directory)
 ```
@@ -40,9 +40,9 @@ es_cert_path='48b1ff99-7b37-4370-b9e6-229f4b939777.pem'
 ```
 Follow the env-template to populate .env file.
 
-### STEP 6: Testing on your local
+### STEP 7: Testing on your local
 ```pip install -r requirement.txt```
 
 
-### STEP 7: Finally, run the main file
+### STEP 8: Finally, run the main file
 ```python main.py```
