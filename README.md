@@ -33,7 +33,8 @@ Lastly within that key find the user name and password and replace it in the end
 
 ### STEP 6: populating .env
 
-Example below: change based on your new environment (.pem saved in same directory)
+Example below: change based on your new environment (.pem saved in same directory).
+Example below of example endpoint which was generated and deleted
 ```
 es_endpoint='https://ibm_cloud_b6628220_2556_497a_a7d5_1f8715a2d8fd:c10311fed1e52f01a998e2bdae6d8aae1b992c6d4ffd0215be0e457b4d210cdb@1813fc1a-4f41-4fcb-94d7-cf1432418afc.br37s45d0p54n73ffbr0.databases.appdomain.cloud:32382'
 es_cert_path='48b1ff99-7b37-4370-b9e6-229f4b939777.pem'
