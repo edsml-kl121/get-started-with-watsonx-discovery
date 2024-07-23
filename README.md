@@ -4,6 +4,11 @@
 Please choose your specification (ie. CPU, RAM needed) and provision the reosource
 ![image](https://github.com/user-attachments/assets/d00ae721-32dd-4bd2-9fb8-d79844671890)
 
+### STEP 2: Locate to your resource
+
+Locate to resource list tab and wait for your instance to be fully provisioned
+![Alt text](Images/locate_to_resource.png)
+
 ### STEP 2: finding your endpoint
 
 1. Here you should copy the endpoint and keep it. You should also replace
